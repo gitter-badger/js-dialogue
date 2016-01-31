@@ -5,9 +5,9 @@ Version 0.1 ALPHA
 
 Version 0.15 ALPHA
 +The preview file has more outcomes.
-*The bot doesn't respond yet.
+-The bot doesn't respond yet.
 
 Version 0.2 ALPHA
-+*+The bot now responds!
+*The bot now responds!
 +We have got an actual engine now!
 +First release version!(?)
