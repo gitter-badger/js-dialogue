@@ -12,5 +12,5 @@
 +We have got an actual engine now!<br>
 +First release version!(?)
 # Version 0.3 ALPHA
-*Fixes, fixes, fixes!
+*Fixes, fixes, fixes!<br>
 +Previewing your files easily!
