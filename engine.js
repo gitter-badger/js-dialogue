@@ -19,7 +19,7 @@ if (text == "good") {
   console.log(name + ": Ah, thank you! I hope you have a nice day too!");
 }
   // When you type 'bad'.
-  else if (text == "bad") {[}
+  else if (text == "bad") {
     console.log(name + ": My day? It is going badly.");
     console.log("Bot: Don't be sad! The day is going to be good - believe it!");
     console.log(name + ": Thank you for your support...");
