@@ -1,13 +1,13 @@
 # Changelog:
 # Version 0.1 ALPHA
-+Started working on the preview file.
++Started working on the preview file.<br>
 +Wrapped the preview file a bit.
 
 # Version 0.15 ALPHA
-+The preview file has more outcomes.
++The preview file has more outcomes.<br>
 -The bot doesn't respond yet.
 
 # Version 0.2 ALPHA
-*The bot now responds!
-+We have got an actual engine now!
+*The bot now responds!<br>
++We have got an actual engine now!<br>
 +First release version!(?)
