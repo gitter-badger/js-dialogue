@@ -1,5 +1,4 @@
 #Dialogue-Based Game Engine
 ================
 
-Hello! This is probably going to be a new engine made in javascript for creating "Emily is away"-like games!
-It is currently being worked on.
+Привет! Это будет движком для игр на подобе "Emily is away". Пока над проектом работают :)
