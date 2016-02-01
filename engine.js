@@ -1,53 +1,53 @@
 // Welcoming message, change to anything you want.
-console.log("Bot: Hello, dear user.");
-// The bot asks your name, no need to change it.
-console.log("Bot: What is your name?");
-var name = prompt("What is your name?");
+console.log("Бот: Привет, дорогой пользователь.");
+// The Бот asks your name, no need to change it.
+console.log("Бот: Как тебя зовут?");
+var name = prompt("Как тебя зовут?");
   // You say that your name == var name;
-console.log(name + ": My name is " + name + ".");
+console.log(name + ": Меня зовут " + name + ".");
 // The dialogue continiues, and this is the first branching choice.
-console.log("Bot: How is your day going?");
+console.log("Бот: Как идёт твой день?");
 /* The text in brackets shows what are the possible choices.
 The '...' means that any other choice will work.  */
-var text = prompt("How is your day going? (good, bad, normal, ...)");
-  // When you type 'good'.
-if (text === "good") {
-  console.log(name + ": My day? It is going good.");
-  // The bot's response.
-  console.log("Bot: Very nice! I hope they happiness continiues!");
+var text = prompt("Как идёт твой день? (хорошо, плохо, нормально, ...)");
+  // When you type 'хорошо'.
+if (text === "хорошо") {
+  console.log(name + ": Мой день? Он идёт хорошо.");
+  // The Бот's response.
+  console.log("Бот: Очень хорошо! Надеюсь он продолжит быть хорошим!");
   // The player's auto-response.
-  console.log(name + ": Ah, thank you! I hope you have a nice day too!");
+  console.log(name + ": Ах, спасибо! Мне хочется, чтобы твой день был хорошым тоже!");
 }
-// When you type 'bad'.
-else if (text === "bad") {
-  console.log(name + ": My day? It is going badly.");
-  console.log("Bot: Don't be sad! The day is going to be good - believe it!");
+// When you type 'плохо'.
+else if (text === "плохо") {
+  console.log(name + ": Мой день? Он идёт плохо.");
+  console.log("Бот: Не грусти! The day is going to be хорошо - believe it!");
   console.log(name + ": Thank you for your support...");
 }
-// When you type 'normal'.
-else if (text === "normal"){
-    console.log(name + ": My day? Eh, it is going normal."); console.log("Bot: Cheer up! :)"); console.log(name + ": :)");
+// When you type 'нормально'.
+else if (text === "нормально"){
+    console.log(name + ": Мой день? Eh, it is going нормально."); console.log("Бот: Cheer up! :)"); console.log(name + ": :)");
   }
   // When you type something else.
   else {
     console.log(name + ": ...");
-    console.log("Bot: ...");
+    console.log("Бот: ...");
 }
-console.log("Bot: So... What are you doing?");
+console.log("Бот: So... What are you doing?");
  var text = prompt("So... What are you doing?(nothing, coding, playing, ...)")
  if (text === "nothing") {
    console.log(name + ": ...I am doing nothing. And you are?");
-   console.log("Bot: I? I am talking with YOU :)");
+   console.log("Бот: I? I am talking with YOU :)");
  }
    else if (text === "coding") {
      console.log(name + ": ...Uh, what? I can't talk with you, I am coding ; )");
-     console.log("Bot: Oh, okay! ; )");
+     console.log("Бот: Oh, okay! ; )");
  }
      else if (text === "playing") {
        console.log(name + ": Oh, I am playing =)");
-       console.log("Bot: Nice! =)");
+       console.log("Бот: Nice! =)");
      }
      else {
        console.log(name + ": ...");
-       console.log("Bot: ...");
+       console.log("Бот: ...");
      }
