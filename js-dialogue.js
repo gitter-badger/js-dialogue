@@ -19,7 +19,25 @@ if (text === "good") {
       console.log("Bot: Cheer up! :)");
       console.log(name + ": :)");
       }
-      else {
+        else {
         console.log(name + ": ...");
         console.log("Bot: ...");
         }
+console.log("Bot: So... What are you doing?");
+var text = prompt("So... What are you doing?(nothing, coding, playing, ...)")
+if (text === "nothing") {
+  console.log(name + ": ...I am doing nothing. And you are?");
+  console.log("Bot: I? I am talking with YOU :)");
+}
+  else if (text === "coding") {
+    console.log(name + ": ...Uh, what? I can't talk with you, I am coding ; )");
+    console.log("Bot: Oh, okay! ; )");
+}
+    else if (text === "playing") {
+      console.log(name + ": Oh, I am playing =)");
+      console.log("Bot: Nice! =)");
+    }
+    else {
+      console.log(name + ": ...");
+      console.log("Bot: ...");
+    }
