@@ -16,6 +16,6 @@
 # Version 0.4 ALPHA
 +More choices in both the main file and engine!
 #Version 0.4 ALPHA RU
-+Making Progress!
-+Translating comments!
++Making Progress!<br>
++Translating comments!<br>
 +Translating text!
