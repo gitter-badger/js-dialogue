@@ -1,51 +1,53 @@
-// Welcoming message, change to anything you want.
+// Ознакомительное сообщение, можете изменить его на то, что вы хотите.
 console.log("Бот: Привет, дорогой пользователь.");
-// The Бот asks your name, no need to change it.
+// Бот спрашивает вашего имени, лучше не менять.
 console.log("Бот: Как тебя зовут?");
 var name = prompt("Как тебя зовут?");
-  // You say that your name == var name;
+  // Вы говорите что ваше имя === переманная name;
 console.log(name + ": Меня зовут " + name + ".");
-// The dialogue continiues, and this is the first branching choice.
+// Диалог проолжается, и вот первый выбор.
 console.log("Бот: Как идёт твой день?");
-/* The text in brackets shows what are the possible choices.
-The '...' means that any other choice will work.  */
+/* Текст в '()' показывает какие варианты существуют.
+'...' означает что другие выборы могут тоже подойти.  */
 var text = prompt("Как идёт твой день? (хорошо, плохо, нормально, ...)");
-  // When you type 'хорошо'.
+  // Когда вы пишете 'хорошо'.
 if (text === "хорошо") {
   console.log(name + ": Мой день? Он идёт хорошо.");
-  // The Бот's response.
+  // Ответ бота.
   console.log("Бот: Очень хорошо! Надеюсь он продолжит быть хорошим!");
-  // The player's auto-response.
+  // Авто-ответ пользователя.
   console.log(name + ": Ах, спасибо! Мне хочется, чтобы твой день был хорошым тоже!");
 }
-// When you type 'плохо'.
+// Когда вы пишите 'плохо'.
 else if (text === "плохо") {
   console.log(name + ": Мой день? Он идёт плохо.");
-  console.log("Бот: Не грусти! The day is going to be хорошо - believe it!");
-  console.log(name + ": Thank you for your support...");
+  console.log("Бот: Не грусти! Твой день будет хорошим - верь этому!");
+  console.log(name + ": Спасибо за вашу поддержку...");
 }
-// When you type 'нормально'.
+// Когда вы пишите 'нормально'.
 else if (text === "нормально"){
-    console.log(name + ": Мой день? Eh, it is going нормально."); console.log("Бот: Cheer up! :)"); console.log(name + ": :)");
+    console.log(name + ": Мой день? Эх, он идёт нормально."); 
+    console.log("Бот: Прибавь настроение! :)"); 
+    console.log(name + ": :)");
   }
-  // When you type something else.
+  // Когда вы пишете чтото другое.
   else {
     console.log(name + ": ...");
     console.log("Бот: ...");
 }
-console.log("Бот: So... What are you doing?");
- var text = prompt("So... What are you doing?(nothing, coding, playing, ...)")
- if (text === "nothing") {
-   console.log(name + ": ...I am doing nothing. And you are?");
-   console.log("Бот: I? I am talking with YOU :)");
+console.log("Бот: Ну... Что ты делаешь??");
+ var text = prompt("Ну... Что ты делаешь?(ничего, пишу код, играю, ...)")
+ if (text === "ничего") {
+   console.log(name + ": ...Я ничего не делаю. А ты?");
+   console.log("Бот: Я? Я разговариваю с тобой :)");
  }
-   else if (text === "coding") {
-     console.log(name + ": ...Uh, what? I can't talk with you, I am coding ; )");
-     console.log("Бот: Oh, okay! ; )");
+   else if (text === "пишу код") {
+     console.log(name + ": ...Мм, что? Я не могу разговариватьс тобой, я пишу коды ; )");
+     console.log("Бот: Ох, окей! ; )");
  }
-     else if (text === "playing") {
-       console.log(name + ": Oh, I am playing =)");
-       console.log("Бот: Nice! =)");
+     else if (text === "играю") {
+       console.log(name + ": Ох, я играю! =)");
+       console.log("Бот: Хорошо! =)");
      }
      else {
        console.log(name + ": ...");
